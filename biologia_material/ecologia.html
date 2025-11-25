@@ -7,82 +7,799 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Header -->
+
   <header class="content-header">
     <h1>Ecologia</h1>
     <a href="index.html" class="back-btn">← Voltar</a>
   </header>
 
-  <!-- Main Content -->
+
   <main class="content-page">
     <div class="container">
+      
+      <div class="cover-section">
+        <img src="images/ecologia.png" alt="Capa de Ecologia" class="cover-image">
+      </div>
+
       <article class="content-article">
-        <!-- Section 1 -->
         <section class="content-section">
-          <h2>O Estudo das Interações da Vida</h2>
+          <h2>Introdução à Ecologia</h2>
           <p>
-            A <strong>Ecologia</strong> é a ciência que estuda as relações dos seres vivos entre si e deles com o meio ambiente. O termo deriva do grego <em>oikos</em> (casa) e <em>logos</em> (estudo), significando o estudo da "casa" ou do ambiente natural.
+            A <strong>Ecologia</strong> é o ramo da Biologia que estuda as relações entre os seres vivos e destes com o ambiente em que vivem. O termo foi criado pelo biólogo alemão <strong>Ernst Haeckel</strong> em 1866, derivado das palavras gregas <em>oikos</em> (casa) e <em>logos</em> (estudo), significando "estudo da casa" ou do ambiente.
+          </p>
+          <p>
+            A Ecologia é uma ciência integradora que combina conhecimentos de diversas áreas como Biologia, Química, Física, Geografia e Matemática para compreender os complexos sistemas naturais. Ela é fundamental para entender questões ambientais contemporâneas como mudanças climáticas, perda de biodiversidade, poluição e conservação de recursos naturais.
           </p>
         </section>
 
-        <!-- Section 2 -->
+        <!-- Níveis de Organização -->
         <section class="content-section">
-          <h3>Níveis de Organização em Ecologia</h3>
-          <p>A Ecologia estuda a vida em diferentes níveis de organização:</p>
+          <h3>Níveis de Organização Ecológica</h3>
+          <p>
+            A Ecologia estuda a vida em diferentes níveis de organização, do mais simples ao mais complexo:
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Nível</th>
+                <th>Definição</th>
+                <th>Exemplo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Organismo (Indivíduo)</strong></td>
+                <td>Um único ser vivo</td>
+                <td>Uma árvore, um leão, uma bactéria</td>
+              </tr>
+              <tr>
+                <td><strong>População</strong></td>
+                <td>Conjunto de indivíduos da mesma espécie vivendo na mesma área</td>
+                <td>População de onças-pintadas no Pantanal</td>
+              </tr>
+              <tr>
+                <td><strong>Comunidade (Biocenose)</strong></td>
+                <td>Conjunto de populações de diferentes espécies vivendo na mesma área</td>
+                <td>Todas as plantas, animais e microrganismos de uma floresta</td>
+              </tr>
+              <tr>
+                <td><strong>Ecossistema</strong></td>
+                <td>Comunidade + fatores abióticos (físicos e químicos) do ambiente</td>
+                <td>Floresta Amazônica, Recife de coral, Lago</td>
+              </tr>
+              <tr>
+                <td><strong>Bioma</strong></td>
+                <td>Grande área geográfica com clima e vegetação característicos</td>
+                <td>Amazônia, Cerrado, Caatinga, Mata Atlântica</td>
+              </tr>
+              <tr>
+                <td><strong>Biosfera</strong></td>
+                <td>Conjunto de todos os ecossistemas da Terra</td>
+                <td>Toda a vida no planeta Terra</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- Fatores Ecológicos -->
+        <section class="content-section">
+          <h3>Fatores Ecológicos</h3>
+          <p>
+            Os <strong>fatores ecológicos</strong> são elementos do ambiente que influenciam os seres vivos. São divididos em:
+          </p>
+          
+          <h4>Fatores Abióticos (Não-vivos)</h4>
+          <ul>
+            <li><strong>Luz:</strong> Essencial para fotossíntese, influencia comportamento e reprodução</li>
+            <li><strong>Temperatura:</strong> Afeta metabolismo, distribuição geográfica e atividade dos organismos</li>
+            <li><strong>Água:</strong> Fundamental para todos os processos vitais, determina tipos de ecossistemas</li>
+            <li><strong>Umidade:</strong> Quantidade de vapor de água no ar, influencia transpiração e distribuição</li>
+            <li><strong>Solo:</strong> Composição mineral, pH, nutrientes, textura</li>
+            <li><strong>Ar:</strong> Composição gasosa (O₂, CO₂, N₂), pressão atmosférica</li>
+            <li><strong>Salinidade:</strong> Concentração de sais, especialmente em ambientes aquáticos</li>
+            <li><strong>pH:</strong> Acidez ou alcalinidade do meio</li>
+            <li><strong>Topografia:</strong> Relevo, altitude, latitude</li>
+          </ul>
+
+          <h4>Fatores Bióticos (Vivos)</h4>
+          <ul>
+            <li><strong>Relações intraespecíficas:</strong> Entre indivíduos da mesma espécie (competição, cooperação)</li>
+            <li><strong>Relações interespecíficas:</strong> Entre indivíduos de espécies diferentes (predação, parasitismo, mutualismo)</li>
+            <li><strong>Disponibilidade de alimento:</strong> Recursos alimentares disponíveis</li>
+            <li><strong>Presença de predadores:</strong> Organismos que caçam outros</li>
+            <li><strong>Presença de parasitas:</strong> Organismos que vivem às custas de outros</li>
+            <li><strong>Competidores:</strong> Organismos que disputam os mesmos recursos</li>
+          </ul>
+        </section>
+
+        <!-- Habitat e Nicho Ecológico -->
+        <section class="content-section">
+          <h3>Habitat e Nicho Ecológico</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Conceito</th>
+                <th>Definição</th>
+                <th>Analogia</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Habitat</strong></td>
+                <td>Local onde uma espécie vive; seu "endereço" no ecossistema</td>
+                <td>É como o endereço de uma casa</td>
+              </tr>
+              <tr>
+                <td><strong>Nicho Ecológico</strong></td>
+                <td>Papel funcional da espécie no ecossistema; inclui hábitos alimentares, período de atividade, relações com outras espécies, etc.</td>
+                <td>É como a "profissão" do organismo</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            <strong>Exemplo:</strong> O habitat da onça-pintada é a floresta tropical. Seu nicho ecológico inclui ser um predador de topo, caçar principalmente à noite, alimentar-se de capivaras, veados e outros mamíferos, controlar populações de herbívoros, etc.
+          </p>
+          <p>
+            <strong>Princípio da Exclusão Competitiva (Princípio de Gause):</strong> Duas espécies não podem ocupar exatamente o mesmo nicho ecológico no mesmo local e ao mesmo tempo. Uma delas será eliminada ou mudará de nicho.
+          </p>
+        </section>
+
+        <!-- Cadeias e Teias Alimentares -->
+        <section class="content-section">
+          <h3>Cadeias e Teias Alimentares</h3>
+          <div class="image-gallery">
+            <div class="gallery-item">
+              <img src="images/1D7JGKETRsVr.png" alt="Cadeia Alimentar" class="educational-image">
+              <p class="image-caption">Diagrama de uma cadeia alimentar mostrando o fluxo de energia entre os níveis tróficos.</p>
+            </div>
+            <div class="gallery-item">
+              <img src="images/hDeihrDQITYs.png" alt="Food Chain" class="educational-image">
+              <p class="image-caption">Representação visual de uma cadeia alimentar terrestre.</p>
+            </div>
+          </div>
+          
+          <p>
+            A <strong>cadeia alimentar</strong> é a sequência linear de organismos através da qual a energia e os nutrientes fluem em um ecossistema. Cada organismo ocupa um <strong>nível trófico</strong> (nível de alimentação).
+          </p>
+
+          <h4>Níveis Tróficos</h4>
+          <table>
+            <thead>
+              <tr>
+                <th>Nível Trófico</th>
+                <th>Descrição</th>
+                <th>Exemplos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Produtores (Autotróficos)</strong></td>
+                <td>Produzem matéria orgânica a partir de inorgânica (fotossíntese ou quimiossíntese)</td>
+                <td>Plantas, algas, cianobactérias</td>
+              </tr>
+              <tr>
+                <td><strong>Consumidores Primários (Herbívoros)</strong></td>
+                <td>Alimentam-se diretamente dos produtores</td>
+                <td>Gafanhotos, coelhos, bois, girafas</td>
+              </tr>
+              <tr>
+                <td><strong>Consumidores Secundários (Carnívoros)</strong></td>
+                <td>Alimentam-se dos herbívoros</td>
+                <td>Sapos, cobras, lobos</td>
+              </tr>
+              <tr>
+                <td><strong>Consumidores Terciários</strong></td>
+                <td>Alimentam-se dos consumidores secundários</td>
+                <td>Águias, tubarões, onças</td>
+              </tr>
+              <tr>
+                <td><strong>Decompositores (Saprófagos)</strong></td>
+                <td>Decompõem matéria orgânica morta, reciclando nutrientes</td>
+                <td>Bactérias, fungos</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p><strong>Exemplo de cadeia alimentar terrestre:</strong></p>
+          <p style="text-align: center; font-weight: bold; font-size: 1.1em;">
+            Capim → Gafanhoto → Sapo → Cobra → Gavião
+          </p>
+
+          <p><strong>Exemplo de cadeia alimentar aquática:</strong></p>
+          <p style="text-align: center; font-weight: bold; font-size: 1.1em;">
+            Fitoplâncton → Zooplâncton → Peixe pequeno → Peixe grande → Tubarão
+          </p>
+
+          <h4>Teia Alimentar</h4>
+          <p>
+            A <strong>teia alimentar</strong> é o conjunto de cadeias alimentares interconectadas em um ecossistema. É uma representação mais realista, pois a maioria dos organismos se alimenta de várias espécies e serve de alimento para várias outras.
+          </p>
+        </section>
+
+        <!-- Pirâmides Ecológicas -->
+        <section class="content-section">
+          <h3>Pirâmides Ecológicas</h3>
+          <div class="image-gallery">
+            <div class="gallery-item">
+              <img src="images/ofBDKTdWXapd.jpg" alt="Pirâmides Ecológicas" class="educational-image">
+              <p class="image-caption">Tipos de pirâmides ecológicas: número, biomassa e energia.</p>
+            </div>
+            <div class="gallery-item">
+              <img src="images/xAVHqme6QknS.jpg" alt="Pirâmide de Energia" class="educational-image">
+              <p class="image-caption">Pirâmide ecológica de energia mostrando a transferência entre níveis tróficos.</p>
+            </div>
+          </div>
+
+          <p>
+            As <strong>pirâmides ecológicas</strong> são representações gráficas dos níveis tróficos de um ecossistema. Existem três tipos principais:
+          </p>
+
+          <h4>1. Pirâmide de Números</h4>
+          <p>
+            Representa o número de indivíduos em cada nível trófico. Geralmente é mais larga na base (muitos produtores) e estreita no topo (poucos predadores de topo). Pode ser invertida em alguns casos (ex: uma árvore sustentando milhares de insetos).
+          </p>
+
+          <h4>2. Pirâmide de Biomassa</h4>
+          <p>
+            Representa a massa total de matéria orgânica (peso seco) em cada nível trófico. Geralmente é direta (maior biomassa nos produtores), mas pode ser invertida em ecossistemas aquáticos onde o fitoplâncton se reproduz rapidamente.
+          </p>
+
+          <h4>3. Pirâmide de Energia</h4>
+          <p>
+            Representa a quantidade de energia disponível em cada nível trófico. <strong>Sempre é direta</strong> (nunca invertida), pois há perda de energia na forma de calor em cada transferência trófica, seguindo a Segunda Lei da Termodinâmica.
+          </p>
+          <p>
+            <strong>Regra dos 10%:</strong> Aproximadamente apenas 10% da energia de um nível trófico é transferida para o próximo nível. Os outros 90% são perdidos principalmente como calor metabólico, movimento, reprodução e matéria não digerida.
+          </p>
+          <p style="text-align: center; font-weight: bold;">
+            Produtores (10.000 kcal) → Herbívoros (1.000 kcal) → Carnívoros (100 kcal) → Predadores de topo (10 kcal)
+          </p>
+        </section>
+
+        <!-- Ciclos Biogeoquímicos -->
+        <section class="content-section">
+          <h3>Ciclos Biogeoquímicos</h3>
+          <p>
+            Os <strong>ciclos biogeoquímicos</strong> são processos naturais que reciclam elementos químicos essenciais entre os componentes bióticos e abióticos dos ecossistemas. Os principais ciclos são:
+          </p>
+
+          <h4>Ciclo da Água (Hidrológico)</h4>
+          <ul>
+            <li><strong>Evaporação:</strong> Água líquida → vapor (oceanos, rios, lagos)</li>
+            <li><strong>Transpiração:</strong> Liberação de vapor pelas plantas</li>
+            <li><strong>Condensação:</strong> Vapor → gotículas (formação de nuvens)</li>
+            <li><strong>Precipitação:</strong> Chuva, neve, granizo</li>
+            <li><strong>Infiltração:</strong> Água penetra no solo (lençóis freáticos)</li>
+            <li><strong>Escoamento:</strong> Água retorna aos oceanos por rios</li>
+          </ul>
+
+          <h4>Ciclo do Carbono</h4>
+          <ul>
+            <li><strong>Fotossíntese:</strong> CO₂ atmosférico → matéria orgânica (glicose)</li>
+            <li><strong>Respiração:</strong> Matéria orgânica → CO₂ (liberado na atmosfera)</li>
+            <li><strong>Decomposição:</strong> Matéria orgânica morta → CO₂</li>
+            <li><strong>Combustão:</strong> Queima de combustíveis fósseis → CO₂</li>
+            <li><strong>Dissolução:</strong> CO₂ dissolve-se nos oceanos</li>
+            <li><strong>Fossilização:</strong> Matéria orgânica → combustíveis fósseis (milhões de anos)</li>
+          </ul>
+          <p>
+            <strong>Efeito Estufa:</strong> O CO₂ e outros gases (metano, óxido nitroso) retêm calor na atmosfera. O aumento desses gases por atividades humanas intensifica o efeito estufa, causando aquecimento global.
+          </p>
+
+          <h4>Ciclo do Nitrogênio</h4>
+          <ul>
+            <li><strong>Fixação:</strong> N₂ atmosférico → amônia (NH₃) por bactérias fixadoras (Rhizobium, cianobactérias)</li>
+            <li><strong>Nitrificação:</strong> Amônia → nitrito (NO₂⁻) → nitrato (NO₃⁻) por bactérias nitrificantes</li>
+            <li><strong>Assimilação:</strong> Plantas absorvem nitrato e produzem proteínas</li>
+            <li><strong>Amonificação:</strong> Decomposição de matéria orgânica → amônia</li>
+            <li><strong>Desnitrificação:</strong> Nitrato → N₂ (retorna à atmosfera) por bactérias desnitrificantes</li>
+          </ul>
+
+          <h4>Ciclo do Oxigênio</h4>
+          <ul>
+            <li><strong>Fotossíntese:</strong> Principal fonte de O₂ atmosférico</li>
+            <li><strong>Respiração:</strong> Consumo de O₂ por seres vivos</li>
+            <li><strong>Decomposição:</strong> Consumo de O₂ por decompositores</li>
+            <li><strong>Combustão:</strong> Queima consome O₂</li>
+            <li><strong>Formação de ozônio (O₃):</strong> Na estratosfera, protege contra radiação UV</li>
+          </ul>
+
+          <h4>Ciclo do Fósforo</h4>
+          <ul>
+            <li><strong>Intemperismo:</strong> Rochas liberam fosfato (PO₄³⁻) no solo</li>
+            <li><strong>Absorção:</strong> Plantas absorvem fosfato do solo</li>
+            <li><strong>Transferência:</strong> Fosfato passa pela cadeia alimentar</li>
+            <li><strong>Decomposição:</strong> Fosfato retorna ao solo</li>
+            <li><strong>Sedimentação:</strong> Fosfato acumula-se em rochas sedimentares (ciclo longo)</li>
+          </ul>
+          <p>
+            <strong>Nota:</strong> O ciclo do fósforo é o mais lento e não possui fase gasosa significativa, sendo principalmente sedimentar.
+          </p>
+        </section>
+
+        <!-- Relações Ecológicas -->
+        <section class="content-section">
+          <h3>Relações Ecológicas</h3>
+          <p>
+            As <strong>relações ecológicas</strong> são interações entre os seres vivos. Podem ser classificadas em:
+          </p>
+
+          <h4>Relações Intraespecíficas (mesma espécie)</h4>
+          <table>
+            <thead>
+              <tr>
+                <th>Tipo</th>
+                <th>Descrição</th>
+                <th>Exemplos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Colônia</strong></td>
+                <td>Indivíduos unidos fisicamente, cooperando</td>
+                <td>Corais, caravelas (Physalia)</td>
+              </tr>
+              <tr>
+                <td><strong>Sociedade</strong></td>
+                <td>Indivíduos independentes com divisão de trabalho</td>
+                <td>Abelhas, formigas, cupins</td>
+              </tr>
+              <tr>
+                <td><strong>Competição Intraespecífica</strong></td>
+                <td>Disputa por recursos (alimento, território, parceiros)</td>
+                <td>Leões disputando território</td>
+              </tr>
+              <tr>
+                <td><strong>Canibalismo</strong></td>
+                <td>Um indivíduo mata e come outro da mesma espécie</td>
+                <td>Louva-a-deus, aranhas</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4>Relações Interespecíficas (espécies diferentes)</h4>
+          <table>
+            <thead>
+              <tr>
+                <th>Tipo</th>
+                <th>Efeito (Esp. A / Esp. B)</th>
+                <th>Descrição</th>
+                <th>Exemplos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Mutualismo</strong></td>
+                <td>(+/+) Obrigatório</td>
+                <td>Ambas se beneficiam, relação essencial</td>
+                <td>Líquens (fungo + alga), bactérias fixadoras + leguminosas</td>
+              </tr>
+              <tr>
+                <td><strong>Protocooperação</strong></td>
+                <td>(+/+) Facultativo</td>
+                <td>Ambas se beneficiam, mas não é obrigatória</td>
+                <td>Pássaro-palito e crocodilo, anêmona e peixe-palhaço</td>
+              </tr>
+              <tr>
+                <td><strong>Comensalismo</strong></td>
+                <td>(+/0)</td>
+                <td>Uma se beneficia, outra não é afetada</td>
+                <td>Rêmora e tubarão, orquídeas em árvores</td>
+              </tr>
+              <tr>
+                <td><strong>Inquilinismo</strong></td>
+                <td>(+/0)</td>
+                <td>Uma usa outra como moradia, sem prejudicar</td>
+                <td>Bromélias em árvores</td>
+              </tr>
+              <tr>
+                <td><strong>Predação</strong></td>
+                <td>(+/-)</td>
+                <td>Uma mata e come a outra</td>
+                <td>Leão e zebra, aranha e mosca</td>
+              </tr>
+              <tr>
+                <td><strong>Parasitismo</strong></td>
+                <td>(+/-)</td>
+                <td>Uma vive às custas da outra, prejudicando-a</td>
+                <td>Carrapatos, piolhos, vermes intestinais</td>
+              </tr>
+              <tr>
+                <td><strong>Competição Interespecífica</strong></td>
+                <td>(-/-)</td>
+                <td>Ambas disputam os mesmos recursos</td>
+                <td>Leões e hienas disputando presas</td>
+              </tr>
+              <tr>
+                <td><strong>Amensalismo (Antibiose)</strong></td>
+                <td>(-/0)</td>
+                <td>Uma prejudica outra sem se beneficiar</td>
+                <td>Penicillium (fungo) inibe bactérias</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- Sucessão Ecológica -->
+        <section class="content-section">
+          <h3>Sucessão Ecológica</h3>
+          <p>
+            <strong>Sucessão ecológica</strong> é o processo gradual de mudanças na composição de espécies de uma comunidade ao longo do tempo, até atingir um estágio de equilíbrio relativo chamado <strong>clímax</strong>.
+          </p>
+
+          <h4>Tipos de Sucessão</h4>
+          <ul>
+            <li><strong>Sucessão Primária:</strong> Ocorre em áreas sem vida prévia (rochas nuas, lava vulcânica). Inicia com espécies pioneiras (liquens, musgos) que preparam o ambiente para outras espécies.</li>
+            <li><strong>Sucessão Secundária:</strong> Ocorre em áreas que já tiveram vida, mas foram perturbadas (incêndios, desmatamento, agricultura abandonada). É mais rápida que a primária pois o solo já existe.</li>
+          </ul>
+
+          <h4>Etapas da Sucessão</h4>
           <ol>
-            <li><strong>Organismo:</strong> Um indivíduo.</li>
-            <li><strong>População:</strong> Conjunto de indivíduos da mesma espécie que vivem em uma mesma área.</li>
-            <li><strong>Comunidade (ou Biocenose):</strong> Conjunto de populações de diferentes espécies que interagem em uma mesma área.</li>
-            <li><strong>Ecossistema:</strong> Conjunto formado pela comunidade (fatores bióticos) e pelo meio ambiente físico (fatores abióticos), interagindo entre si.</li>
-            <li><strong>Biosfera:</strong> O conjunto de todos os ecossistemas da Terra, a porção do planeta onde a vida existe.</li>
+            <li><strong>Ecese:</strong> Chegada e estabelecimento das espécies pioneiras</li>
+            <li><strong>Comunidades Intermediárias (Seres):</strong> Substituição gradual de espécies, aumento da biodiversidade</li>
+            <li><strong>Comunidade Clímax:</strong> Estágio de equilíbrio, maior biodiversidade, biomassa estável</li>
           </ol>
+
+          <h4>Características da Sucessão</h4>
+          <table>
+            <thead>
+              <tr>
+                <th>Característica</th>
+                <th>Comunidade Pioneira</th>
+                <th>Comunidade Clímax</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Biodiversidade</strong></td>
+                <td>Baixa</td>
+                <td>Alta</td>
+              </tr>
+              <tr>
+                <td><strong>Biomassa</strong></td>
+                <td>Baixa</td>
+                <td>Alta</td>
+              </tr>
+              <tr>
+                <td><strong>Teias Alimentares</strong></td>
+                <td>Simples</td>
+                <td>Complexas</td>
+              </tr>
+              <tr>
+                <td><strong>Produtividade</strong></td>
+                <td>Produção > Respiração</td>
+                <td>Produção ≈ Respiração</td>
+              </tr>
+              <tr>
+                <td><strong>Estabilidade</strong></td>
+                <td>Baixa (instável)</td>
+                <td>Alta (estável)</td>
+              </tr>
+            </tbody>
+          </table>
         </section>
 
-        <!-- Section 3 -->
+        <!-- Biomas Brasileiros -->
         <section class="content-section">
-          <h3>Conceitos Fundamentais</h3>
-          <ul>
-            <li><strong>Habitat:</strong> O local específico onde uma espécie vive.</li>
-            <li><strong>Nicho Ecológico:</strong> O "papel" ou "profissão" de uma espécie no ecossistema, incluindo seus hábitos alimentares, predadores, e como ela interage com o meio.</li>
-            <li><strong>Fatores Bióticos:</strong> Componentes vivos do ecossistema (animais, plantas, microrganismos).</li>
-            <li><strong>Fatores Abióticos:</strong> Componentes não vivos do ecossistema (luz, temperatura, água, solo).</li>
-          </ul>
-        </section>
-
-        <!-- Section 4 -->
-        <section class="content-section">
-          <h3>Fluxo de Energia e Cadeias Alimentares</h3>
-          <p>A energia flui através do ecossistema em uma única direção, começando pelo Sol:</p>
-          <ul>
-            <li><strong>Produtores:</strong> Organismos autotróficos (principalmente plantas e algas) que produzem seu próprio alimento através da fotossíntese.</li>
-            <li><strong>Consumidores:</strong> Organismos heterotróficos que se alimentam de outros seres vivos.
-              <ul>
-                <li>• <strong>Consumidores Primários:</strong> Herbívoros (alimentam-se de produtores).</li>
-                <li>• <strong>Consumidores Secundários:</strong> Carnívoros que se alimentam de herbívoros.</li>
-                <li>• <strong>Consumidores Terciários:</strong> Carnívoros que se alimentam de consumidores secundários, e assim por diante.</li>
-              </ul>
-            </li>
-            <li><strong>Decompositores:</strong> Fungos e bactérias que reciclam a matéria orgânica morta, devolvendo nutrientes ao solo.</li>
-          </ul>
+          <h3>Biomas Brasileiros</h3>
           <p>
-            A <strong>Cadeia Alimentar</strong> representa a sequência de transferência de energia e matéria de um organismo para outro. O conjunto de cadeias alimentares interligadas forma a <strong>Teia Alimentar</strong>.
+            O Brasil possui seis biomas terrestres principais, cada um com características climáticas, vegetação e fauna específicas:
+          </p>
+
+          <h4>1. Amazônia</h4>
+          <ul>
+            <li><strong>Localização:</strong> Norte do Brasil (maior parte)</li>
+            <li><strong>Clima:</strong> Equatorial, quente e úmido</li>
+            <li><strong>Vegetação:</strong> Floresta tropical úmida, maior biodiversidade do planeta</li>
+            <li><strong>Fauna:</strong> Onça-pintada, boto, arara, preguiça, anaconda</li>
+            <li><strong>Importância:</strong> "Pulmão do mundo", regula clima global, maior reserva de água doce</li>
+          </ul>
+
+          <h4>2. Cerrado</h4>
+          <ul>
+            <li><strong>Localização:</strong> Centro-Oeste, partes do Nordeste e Sudeste</li>
+            <li><strong>Clima:</strong> Tropical sazonal (estação seca e chuvosa)</li>
+            <li><strong>Vegetação:</strong> Savana, árvores baixas e retorcidas, gramíneas</li>
+            <li><strong>Fauna:</strong> Lobo-guará, tamanduá-bandeira, ema, tatu-canastra</li>
+            <li><strong>Importância:</strong> "Berço das águas", nascentes de importantes bacias hidrográficas</li>
+          </ul>
+
+          <h4>3. Mata Atlântica</h4>
+          <ul>
+            <li><strong>Localização:</strong> Costa leste do Brasil</li>
+            <li><strong>Clima:</strong> Tropical úmido</li>
+            <li><strong>Vegetação:</strong> Floresta tropical, alta biodiversidade, muitas espécies endêmicas</li>
+            <li><strong>Fauna:</strong> Mico-leão-dourado, muriqui, onça-pintada, tucano</li>
+            <li><strong>Situação:</strong> Apenas ~12% da cobertura original, altamente ameaçado</li>
+          </ul>
+
+          <h4>4. Caatinga</h4>
+          <ul>
+            <li><strong>Localização:</strong> Nordeste do Brasil (semiárido)</li>
+            <li><strong>Clima:</strong> Semiárido, baixa pluviosidade</li>
+            <li><strong>Vegetação:</strong> Arbustos espinhosos, cactos, plantas xerófitas</li>
+            <li><strong>Fauna:</strong> Asa-branca, preá, tatu-peba, cascavel</li>
+            <li><strong>Característica:</strong> Único bioma exclusivamente brasileiro</li>
+          </ul>
+
+          <h4>5. Pantanal</h4>
+          <ul>
+            <li><strong>Localização:</strong> Mato Grosso e Mato Grosso do Sul</li>
+            <li><strong>Clima:</strong> Tropical, com alagamentos sazonais</li>
+            <li><strong>Vegetação:</strong> Mosaico de formações (campos, cerrado, floresta)</li>
+            <li><strong>Fauna:</strong> Jacaré, capivara, tuiuiú, ariranha, onça-pintada</li>
+            <li><strong>Importância:</strong> Maior planície alagável do mundo, alta concentração de fauna</li>
+          </ul>
+
+          <h4>6. Pampa</h4>
+          <ul>
+            <li><strong>Localização:</strong> Sul do Rio Grande do Sul</li>
+            <li><strong>Clima:</strong> Subtropical, com quatro estações bem definidas</li>
+            <li><strong>Vegetação:</strong> Campos (gramíneas), poucas árvores</li>
+            <li><strong>Fauna:</strong> Capivara, graxaim, quero-quero, perdiz</li>
+            <li><strong>Uso:</strong> Pecuária extensiva, agricultura</li>
+          </ul>
+        </section>
+
+        <!-- Problemas Ambientais -->
+        <section class="content-section">
+          <h3>Problemas Ambientais Contemporâneos</h3>
+          
+          <h4>Desmatamento</h4>
+          <p>
+            Remoção da cobertura vegetal para agricultura, pecuária, urbanização ou extração de madeira. Consequências: perda de biodiversidade, erosão do solo, alteração do ciclo da água, contribuição para mudanças climáticas.
+          </p>
+
+          <h4>Poluição</h4>
+          <ul>
+            <li><strong>Poluição do ar:</strong> Emissão de gases e partículas (CO₂, SO₂, material particulado). Causa chuva ácida, problemas respiratórios, efeito estufa.</li>
+            <li><strong>Poluição da água:</strong> Esgoto, agrotóxicos, metais pesados, plásticos. Causa eutrofização, morte de organismos aquáticos.</li>
+            <li><strong>Poluição do solo:</strong> Agrotóxicos, lixo, metais pesados. Contamina lençóis freáticos, prejudica agricultura.</li>
+          </ul>
+
+          <h4>Mudanças Climáticas</h4>
+          <p>
+            Alteração dos padrões climáticos globais devido ao aumento de gases de efeito estufa (principalmente CO₂ e metano) por atividades humanas. Consequências: aumento da temperatura global, derretimento de geleiras, elevação do nível do mar, eventos climáticos extremos, alteração de ecossistemas.
+          </p>
+
+          <h4>Perda de Biodiversidade</h4>
+          <p>
+            Extinção acelerada de espécies devido a destruição de habitats, poluição, caça, introdução de espécies exóticas, mudanças climáticas. A taxa atual de extinção é estimada em 100 a 1000 vezes maior que a taxa natural.
+          </p>
+
+          <h4>Eutrofização</h4>
+          <p>
+            Enriquecimento excessivo de nutrientes (nitrogênio e fósforo) em corpos d'água, geralmente por esgoto e fertilizantes agrícolas. Causa proliferação de algas (bloom), que ao morrerem são decompostas por bactérias que consomem o oxigênio da água, causando morte de peixes e outros organismos.
+          </p>
+
+          <h4>Introdução de Espécies Exóticas</h4>
+          <p>
+            Espécies introduzidas em novos ambientes podem se tornar invasoras, competindo com espécies nativas, predando-as ou transmitindo doenças. Exemplos: javali, coral-sol, mexilhão-dourado no Brasil.
           </p>
         </section>
 
-        <!-- Section 5 -->
+        <!-- Conservação e Sustentabilidade -->
         <section class="content-section">
-          <div class="info-box">
-            <h4>Exemplo de Cadeia Alimentar:</h4>
-            <p>
-              Planta (Produtor) → Gafanhoto (Consumidor Primário) → Pássaro (Consumidor Secundário) → Gavião (Consumidor Terciário)
-            </p>
+          <h3>Conservação e Desenvolvimento Sustentável</h3>
+          
+          <h4>Unidades de Conservação</h4>
+          <p>
+            Áreas protegidas com o objetivo de preservar a biodiversidade e os recursos naturais. No Brasil, são divididas em:
+          </p>
+          <ul>
+            <li><strong>Proteção Integral:</strong> Uso indireto dos recursos (pesquisa, educação, turismo). Ex: Parques Nacionais, Reservas Biológicas.</li>
+            <li><strong>Uso Sustentável:</strong> Permite uso controlado dos recursos. Ex: Áreas de Proteção Ambiental (APAs), Reservas Extrativistas.</li>
+          </ul>
+
+          <h4>Desenvolvimento Sustentável</h4>
+          <p>
+            Modelo de desenvolvimento que atende às necessidades do presente sem comprometer a capacidade das gerações futuras de atenderem às suas próprias necessidades. Baseia-se em três pilares:
+          </p>
+          <ul>
+            <li><strong>Econômico:</strong> Crescimento econômico viável</li>
+            <li><strong>Social:</strong> Equidade e justiça social</li>
+            <li><strong>Ambiental:</strong> Preservação dos recursos naturais e ecossistemas</li>
+          </ul>
+
+          <h4>Práticas Sustentáveis</h4>
+          <ul>
+            <li>Uso de energias renováveis (solar, eólica, hidrelétrica)</li>
+            <li>Reciclagem e redução de resíduos (3 Rs: Reduzir, Reutilizar, Reciclar)</li>
+            <li>Agricultura sustentável (orgânica, agrofloresta, rotação de culturas)</li>
+            <li>Consumo consciente</li>
+            <li>Reflorestamento e recuperação de áreas degradadas</li>
+            <li>Tratamento de esgoto e resíduos industriais</li>
+            <li>Educação ambiental</li>
+          </ul>
+        </section>
+
+        <!-- Questões de Vestibulares -->
+        <section class="questions-section">
+          <h2>📚 Questões de Vestibulares</h2>
+          
+          <div class="question">
+            <h4>QUESTÃO 01 (ENEM)</h4>
+            <p>Em uma cadeia alimentar, a energia flui dos produtores para os consumidores. Aproximadamente que porcentagem de energia é transferida de um nível trófico para o próximo?</p>
+            <ul class="options">
+              <li><strong>a)</strong> 50%</li>
+              <li><strong>b)</strong> 25%</li>
+              <li><strong>c)</strong> 10%</li>
+              <li><strong>d)</strong> 5%</li>
+              <li><strong>e)</strong> 1%</li>
+            </ul>
+            <details class="answer">
+              <summary>Ver Resposta</summary>
+              <p><strong>Resposta: C</strong></p>
+              <p>Segundo a regra dos 10%, aproximadamente apenas 10% da energia de um nível trófico é transferida para o próximo. Os outros 90% são perdidos principalmente como calor metabólico.</p>
+            </details>
+          </div>
+
+          <div class="question">
+            <h4>QUESTÃO 02</h4>
+            <p>Qual das seguintes relações ecológicas é benéfica para ambas as espécies envolvidas e é obrigatória para sua sobrevivência?</p>
+            <ul class="options">
+              <li><strong>a)</strong> Comensalismo</li>
+              <li><strong>b)</strong> Protocooperação</li>
+              <li><strong>c)</strong> Mutualismo</li>
+              <li><strong>d)</strong> Parasitismo</li>
+            </ul>
+            <details class="answer">
+              <summary>Ver Resposta</summary>
+              <p><strong>Resposta: C</strong></p>
+              <p>O mutualismo é uma relação (+/+) onde ambas as espécies se beneficiam e a relação é obrigatória para a sobrevivência de ambas. Exemplo: líquens (fungo + alga).</p>
+            </details>
+          </div>
+
+          <div class="question">
+            <h4>QUESTÃO 03</h4>
+            <p>O acúmulo excessivo de nutrientes (nitrogênio e fósforo) em corpos d'água, causando proliferação de algas e redução de oxigênio, é chamado de:</p>
+            <ul class="options">
+              <li><strong>a)</strong> Magnificação trófica</li>
+              <li><strong>b)</strong> Eutrofização</li>
+              <li><strong>c)</strong> Bioacumulação</li>
+              <li><strong>d)</strong> Sucessão ecológica</li>
+            </ul>
+            <details class="answer">
+              <summary>Ver Resposta</summary>
+              <p><strong>Resposta: B</strong></p>
+              <p>A eutrofização é o enriquecimento excessivo de nutrientes em corpos d'água, geralmente causado por esgoto e fertilizantes, levando à proliferação de algas e redução do oxigênio dissolvido.</p>
+            </details>
+          </div>
+
+          <div class="question">
+            <h4>QUESTÃO 04</h4>
+            <p>Qual bioma brasileiro é conhecido como "berço das águas" por abrigar nascentes de importantes bacias hidrográficas?</p>
+            <ul class="options">
+              <li><strong>a)</strong> Amazônia</li>
+              <li><strong>b)</strong> Mata Atlântica</li>
+              <li><strong>c)</strong> Cerrado</li>
+              <li><strong>d)</strong> Pantanal</li>
+            </ul>
+            <details class="answer">
+              <summary>Ver Resposta</summary>
+              <p><strong>Resposta: C</strong></p>
+              <p>O Cerrado é conhecido como "berço das águas" porque abriga nascentes de importantes bacias hidrográficas brasileiras, incluindo as bacias do Tocantins-Araguaia, São Francisco e Paraná.</p>
+            </details>
+          </div>
+
+          <div class="question">
+            <h4>QUESTÃO 05</h4>
+            <p>Segundo o Princípio da Exclusão Competitiva (Princípio de Gause):</p>
+            <ul class="options">
+              <li><strong>a)</strong> Duas espécies podem ocupar o mesmo nicho ecológico indefinidamente</li>
+              <li><strong>b)</strong> Duas espécies não podem ocupar exatamente o mesmo nicho ecológico no mesmo local e tempo</li>
+              <li><strong>c)</strong> Espécies diferentes sempre competem por recursos</li>
+              <li><strong>d)</strong> O habitat determina o nicho ecológico</li>
+            </ul>
+            <details class="answer">
+              <summary>Ver Resposta</summary>
+              <p><strong>Resposta: B</strong></p>
+              <p>O Princípio de Gause estabelece que duas espécies não podem ocupar exatamente o mesmo nicho ecológico no mesmo local e ao mesmo tempo. Uma será eliminada ou mudará de nicho.</p>
+            </details>
+          </div>
+
+          <div class="question">
+            <h4>QUESTÃO 06 (FUVEST)</h4>
+            <p>Na sucessão ecológica, a comunidade clímax, comparada às comunidades intermediárias, apresenta:</p>
+            <ul class="options">
+              <li><strong>a)</strong> Menor biodiversidade e menor biomassa</li>
+              <li><strong>b)</strong> Maior biodiversidade e menor biomassa</li>
+              <li><strong>c)</strong> Menor biodiversidade e maior biomassa</li>
+              <li><strong>d)</strong> Maior biodiversidade e maior biomassa</li>
+            </ul>
+            <details class="answer">
+              <summary>Ver Resposta</summary>
+              <p><strong>Resposta: D</strong></p>
+              <p>A comunidade clímax é o estágio final da sucessão ecológica, caracterizado por maior biodiversidade, maior biomassa, teias alimentares complexas e maior estabilidade.</p>
+            </details>
+          </div>
+
+          <div class="question">
+            <h4>QUESTÃO 07 (UNESP)</h4>
+            <p>O que são organismos decompositores e qual seu papel em um ecossistema?</p>
+            <ul class="options">
+              <li><strong>a)</strong> São produtores que realizam fotossíntese.</li>
+              <li><strong>b)</strong> São consumidores primários que se alimentam de plantas.</li>
+              <li><strong>c)</strong> São organismos (fungos e bactérias) que transformam matéria orgânica morta em inorgânica, reciclando nutrientes.</li>
+              <li><strong>d)</strong> São predadores de topo de cadeia alimentar.</li>
+            </ul>
+            <details class="answer">
+              <summary>Ver Resposta</summary>
+              <p><strong>Resposta: C</strong></p>
+              <p>Os decompositores (fungos e bactérias) são essenciais para o ciclo da matéria, pois transformam a matéria orgânica morta em nutrientes inorgânicos que podem ser reutilizados pelos produtores.</p>
+            </details>
+          </div>
+
+          <div class="question">
+            <h4>QUESTÃO 08 (UERJ)</h4>
+            <p>Qual dos ciclos biogeoquímicos não possui uma fase gasosa na atmosfera?</p>
+            <ul class="options">
+              <li><strong>a)</strong> Ciclo do Carbono</li>
+              <li><strong>b)</strong> Ciclo do Nitrogênio</li>
+              <li><strong>c)</strong> Ciclo do Fósforo</li>
+              <li><strong>d)</strong> Ciclo da Água</li>
+            </ul>
+            <details class="answer">
+              <summary>Ver Resposta</summary>
+              <p><strong>Resposta: C</strong></p>
+              <p>O Ciclo do Fósforo é um ciclo sedimentar, ou seja, não possui uma fase gasosa significativa na atmosfera. O fósforo é encontrado principalmente em rochas e sedimentos.</p>
+            </details>
+          </div>
+
+          <div class="question">
+            <h4>QUESTÃO 09 (UFMG)</h4>
+            <p>A relação ecológica em que um organismo se beneficia e o outro é prejudicado, mas não morto imediatamente, é chamada de:</p>
+            <ul class="options">
+              <li><strong>a)</strong> Mutualismo</li>
+              <li><strong>b)</strong> Comensalismo</li>
+              <li><strong>c)</strong> Predatismo</li>
+              <li><strong>d)</strong> Parasitismo</li>
+            </ul>
+            <details class="answer">
+              <summary>Ver Resposta</summary>
+              <p><strong>Resposta: D</strong></p>
+              <p>O parasitismo é uma relação desarmônica (+/-) onde o parasita se beneficia do hospedeiro, causando-lhe prejuízo, mas geralmente não o matando rapidamente, pois depende dele para sobreviver.</p>
+            </details>
+          </div>
+
+          <div class="question">
+            <h4>QUESTÃO 10 (ENEM)</h4>
+            <p>O que é o Efeito Estufa e qual sua importância para a vida na Terra?</p>
+            <ul class="options">
+              <li><strong>a)</strong> Fenômeno artificial que causa o aquecimento global.</li>
+              <li><strong>b)</strong> Fenômeno natural que retém calor na atmosfera, mantendo a temperatura média do planeta em níveis habitáveis.</li>
+              <li><strong>c)</strong> Camada de gases que protege a Terra da radiação ultravioleta.</li>
+              <li><strong>d)</strong> Processo de conversão de energia solar em energia química pelas plantas.</li>
+            </ul>
+            <details class="answer">
+              <summary>Ver Resposta</summary>
+              <p><strong>Resposta: B</strong></p>
+              <p>O Efeito Estufa é um fenômeno natural essencial para a vida, pois gases como CO₂ e vapor d'água retêm parte do calor irradiado pela Terra, elevando a temperatura média do planeta. O problema atual é o agravamento desse efeito pela ação humana.</p>
+            </details>
+          </div>
+        </section>
+
+        <!-- QR Codes -->
+        <section class="qr-codes-section">
+          <h2> Recursos Adicionais</h2>
+          <div class="qr-codes-container">
+            <div class="qr-code-box">
+              <h4> Vídeo Aulas</h4>
+              <img src="images/qr_playlist_ecologia.png" alt="QR Code para Vídeo Aulas de Ecologia" class="qr-code">
+              <p>Escaneie para acessar vídeo aulas sobre Ecologia</p>
+            </div>
+            <div class="qr-code-box">
+              <h4> Jogos e Conteúdo Interativo</h4>
+              <img src="images/qr_ecologia.png" alt="QR Code para Jogos de Ecologia" class="qr-code">
+              <p>Escaneie para acessar simuladores de ecossistemas e jogos educativos</p>
+            </div>
           </div>
         </section>
       </article>
     </div>
   </main>
 
-  <!-- Footer -->
+  
   <footer>
     <p>&copy; 2024 Sistema de Materiais Didáticos de Biologia. Todos os direitos reservados.</p>
   </footer>

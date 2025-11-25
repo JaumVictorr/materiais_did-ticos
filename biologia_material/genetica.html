@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Genética - Sistema de Materiais Didáticos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <header class="content-header">
+    <h1>Genética</h1>
+    <a href="index.html" class="back-btn">← Voltar</a>
+  </header>
+
+  
+  <main class="content-page">
+    <div class="container">
+      <div class="cover-section">
+        <img src="images/genetica.png" alt="Capa de Genética" class="cover-image">
+      </div>
+
+      <article class="content-article">
+        <section class="content-section">
+          <h2>Introdução à Genética</h2>
+          <p>
+            A <strong>Genética</strong> é o ramo da Biologia que estuda a hereditariedade, ou seja, como as características são transmitidas de pais para filhos através das gerações. O termo "genética" vem do grego <em>genesis</em>, que significa "origem". A genética moderna começou com os experimentos de <strong>Gregor Mendel</strong> (1822-1884), um monge austríaco considerado o "pai da genética".
+          </p>
+          <p>
+            Mendel realizou experimentos com ervilhas (<em>Pisum sativum</em>) entre 1856 e 1863, cruzando plantas com características diferentes e analisando os resultados nas gerações seguintes. Seus trabalhos, publicados em 1866, foram ignorados na época, mas redescobertos em 1900, estabelecendo as bases da genética moderna.
+          </p>
+        </section>
+
+        <!-- Conceitos Fundamentais -->
+        <section class="content-section">
+          <h3>Conceitos Fundamentais da Genética</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Termo</th>
+                <th>Definição</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Gene</strong></td>
+                <td>Segmento de DNA que contém a informação para a síntese de uma proteína ou RNA funcional</td>
+              </tr>
+              <tr>
+                <td><strong>Alelo</strong></td>
+                <td>Formas alternativas de um mesmo gene (ex: alelo para olhos castanhos ou azuis)</td>
+              </tr>
+              <tr>
+                <td><strong>Genótipo</strong></td>
+                <td>Conjunto de genes de um indivíduo (constituição genética)</td>
+              </tr>
+              <tr>
+                <td><strong>Fenótipo</strong></td>
+                <td>Características observáveis de um indivíduo (resultado da interação entre genótipo e ambiente)</td>
+              </tr>
+              <tr>
+                <td><strong>Homozigoto</strong></td>
+                <td>Indivíduo com dois alelos iguais para um gene (AA ou aa)</td>
+              </tr>
+              <tr>
+                <td><strong>Heterozigoto</strong></td>
+                <td>Indivíduo com dois alelos diferentes para um gene (Aa)</td>
+              </tr>
+              <tr>
+                <td><strong>Dominante</strong></td>
+                <td>Alelo que se manifesta no fenótipo mesmo em dose simples (heterozigose)</td>
+              </tr>
+              <tr>
+                <td><strong>Recessivo</strong></td>
+                <td>Alelo que só se manifesta no fenótipo em dose dupla (homozigose)</td>
+              </tr>
+              <tr>
+                <td><strong>Locus</strong></td>
+                <td>Posição específica de um gene no cromossomo</td>
+              </tr>
+              <tr>
+                <td><strong>Cromossomos Homólogos</strong></td>
+                <td>Par de cromossomos semelhantes, um de origem paterna e outro materna</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- Primeira Lei de Mendel -->
+        <section class="content-section">
+          <h3>Primeira Lei de Mendel (Lei da Segregação)</h3>
+          <div class="image-gallery">
+            <div class="gallery-item">
+              <img src="images/primeira_mendel1.jpg" alt="Experimento de Mendel" class="educational-image">
+              <p class="image-caption">Experimento clássico de Mendel mostrando a segregação dos alelos nas gerações F1 e F2.</p>
+            </div>
+            <div class="gallery-item">
+              <img src="images/primeira_mendel2.jpg" alt="Primeira Lei de Mendel" class="educational-image">
+              <p class="image-caption">Representação visual da Primeira Lei de Mendel com ervilhas de diferentes características.</p>
+            </div>
+          </div>
+          <p>
+            A <strong>Primeira Lei de Mendel</strong> ou <strong>Lei da Segregação dos Fatores</strong> afirma que:
+          </p>
+          <blockquote>
+            "Cada característica é determinada por um par de fatores (alelos) que se separam durante a formação dos gametas, de modo que cada gameta recebe apenas um fator de cada par."
+          </blockquote>
+          <p>
+            Mendel cruzou ervilhas de linhagem pura com sementes amarelas (AA) com ervilhas de sementes verdes (aa). Na geração F1, todas as plantas tinham sementes amarelas (Aa), mostrando que o alelo para amarelo é dominante. Quando cruzou plantas F1 entre si, obteve na F2 uma proporção de <strong>3 amarelas : 1 verde</strong>.
+          </p>
+          <p><strong>Explicação:</strong></p>
+          <ul>
+            <li>Geração Parental (P): AA × aa</li>
+            <li>Gametas: A e a</li>
+            <li>Geração F1: 100% Aa (amarelas)</li>
+            <li>Cruzamento F1 × F1: Aa × Aa</li>
+            <li>Geração F2: 1 AA : 2 Aa : 1 aa (proporção genotípica 1:2:1)</li>
+            <li>Fenótipo F2: 3 amarelas : 1 verde (proporção fenotípica 3:1)</li>
+          </ul>
+        </section>
+
+        <!-- Quadro de Punnett -->
+        <section class="content-section">
+          <h3>Quadro de Punnett</h3>
+          <div class="image-gallery">
+            <div class="gallery-item">
+              <img src="images/punnett1.png" alt="Quadro de Punnett" class="educational-image">
+              <p class="image-caption">Exemplo de Quadro de Punnett mostrando as probabilidades de combinações genéticas.</p>
+            </div>
+            <div class="gallery-item">
+              <img src="images/punnet2.jpg" alt="Punnett Square" class="educational-image">
+              <p class="image-caption">Quadro de Punnett aplicado à genética mendeliana.</p>
+            </div>
+          </div>
+          <p>
+            O <strong>Quadro de Punnett</strong> é uma ferramenta gráfica desenvolvida por Reginald Punnett para prever as proporções genotípicas e fenotípicas dos descendentes de um cruzamento. É especialmente útil para visualizar cruzamentos monohíbridos (um gene) e di-híbridos (dois genes).
+          </p>
+          <p><strong>Como construir um Quadro de Punnett:</strong></p>
+          <ol>
+            <li>Determine os genótipos dos pais</li>
+            <li>Identifique os gametas possíveis de cada pai</li>
+            <li>Desenhe uma grade com os gametas de um pai no topo e do outro na lateral</li>
+            <li>Preencha cada célula combinando os gametas</li>
+            <li>Conte as proporções genotípicas e fenotípicas</li>
+          </ol>
+        </section>
+
+        <!-- Segunda Lei de Mendel -->
+        <section class="content-section">
+          <h3>Segunda Lei de Mendel (Lei da Segregação Independente)</h3>
+          <p>
+            A <strong>Segunda Lei de Mendel</strong> ou <strong>Lei da Segregação Independente</strong> afirma que:
+          </p>
+          <blockquote>
+            "Os fatores (alelos) para duas ou mais características segregam-se independentemente durante a formação dos gametas e se combinam ao acaso."
+          </blockquote>
+          <p>
+            Mendel cruzou ervilhas que diferiam em duas características: cor da semente (amarela ou verde) e textura (lisa ou rugosa). Na geração F2, obteve uma proporção fenotípica de <strong>9:3:3:1</strong>:
+          </p>
+          <ul>
+            <li>9 amarelas e lisas</li>
+            <li>3 amarelas e rugosas</li>
+            <li>3 verdes e lisas</li>
+            <li>1 verde e rugosa</li>
+          </ul>
+          <p>
+            Esta lei só é válida para genes localizados em cromossomos diferentes ou muito distantes no mesmo cromossomo. Genes próximos no mesmo cromossomo tendem a ser herdados juntos (ligação gênica ou linkage).
+          </p>
+        </section>
+
+        <!-- Herança e Probabilidade -->
+        <section class="content-section">
+          <h3>Probabilidade em Genética</h3>
+          <p>
+            A genética utiliza princípios de probabilidade para prever os resultados de cruzamentos. Duas regras fundamentais são:
+          </p>
+          <ul>
+            <li><strong>Regra do "E" (Multiplicação):</strong> A probabilidade de dois eventos independentes ocorrerem simultaneamente é o produto de suas probabilidades individuais. Exemplo: probabilidade de obter Aa E Bb = 1/2 × 1/2 = 1/4.</li>
+            <li><strong>Regra do "OU" (Adição):</strong> A probabilidade de um evento ou outro ocorrer é a soma de suas probabilidades individuais. Exemplo: probabilidade de obter AA OU Aa = 1/4 + 1/2 = 3/4.</li>
+          </ul>
+        </section>
+
+        <!-- Tipos de Herança -->
+        <section class="content-section">
+          <h3>Tipos de Herança Genética</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Tipo de Herança</th>
+                <th>Características</th>
+                <th>Exemplos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Dominância Completa</strong></td>
+                <td>O alelo dominante mascara completamente o recessivo</td>
+                <td>Cor da semente em ervilhas (amarelo dominante sobre verde)</td>
+              </tr>
+              <tr>
+                <td><strong>Dominância Incompleta</strong></td>
+                <td>Heterozigoto apresenta fenótipo intermediário</td>
+                <td>Cor de flores em maravilha (vermelha × branca = rosa)</td>
+              </tr>
+              <tr>
+                <td><strong>Codominância</strong></td>
+                <td>Ambos os alelos se expressam simultaneamente</td>
+                <td>Sistema sanguíneo ABO (tipo AB)</td>
+              </tr>
+              <tr>
+                <td><strong>Alelos Múltiplos</strong></td>
+                <td>Mais de dois alelos para o mesmo gene na população</td>
+                <td>Sistema ABO, cor de pelagem em coelhos</td>
+              </tr>
+              <tr>
+                <td><strong>Herança Quantitativa (Poligênica)</strong></td>
+                <td>Vários genes contribuem para uma característica</td>
+                <td>Altura, cor da pele, cor dos olhos em humanos</td>
+              </tr>
+              <tr>
+                <td><strong>Pleiotropia</strong></td>
+                <td>Um gene afeta múltiplas características</td>
+                <td>Fenilcetonúria, síndrome de Marfan</td>
+              </tr>
+              <tr>
+                <td><strong>Epistasia</strong></td>
+                <td>Um gene interfere na expressão de outro</td>
+                <td>Cor de pelagem em cães labradores</td>
+              </tr>
+              <tr>
+                <td><strong>Herança Ligada ao Sexo</strong></td>
+                <td>Genes localizados nos cromossomos sexuais</td>
+                <td>Hemofilia, daltonismo</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- Sistema ABO -->
+        <section class="content-section">
+          <h3>Sistema ABO de Grupos Sanguíneos</h3>
+          <p>
+            O <strong>sistema ABO</strong> é um exemplo clássico de alelos múltiplos e codominância. Existem três alelos na população: I<sup>A</sup>, I<sup>B</sup> e i. Os alelos I<sup>A</sup> e I<sup>B</sup> são codominantes entre si e dominantes sobre i.
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Genótipo</th>
+                <th>Fenótipo (Tipo Sanguíneo)</th>
+                <th>Antígenos nas Hemácias</th>
+                <th>Anticorpos no Plasma</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>I<sup>A</sup>I<sup>A</sup> ou I<sup>A</sup>i</td>
+                <td>Tipo A</td>
+                <td>Antígeno A</td>
+                <td>Anti-B</td>
+              </tr>
+              <tr>
+                <td>I<sup>B</sup>I<sup>B</sup> ou I<sup>B</sup>i</td>
+                <td>Tipo B</td>
+                <td>Antígeno B</td>
+                <td>Anti-A</td>
+              </tr>
+              <tr>
+                <td>I<sup>A</sup>I<sup>B</sup></td>
+                <td>Tipo AB</td>
+                <td>Antígenos A e B</td>
+                <td>Nenhum</td>
+              </tr>
+              <tr>
+                <td>ii</td>
+                <td>Tipo O</td>
+                <td>Nenhum</td>
+                <td>Anti-A e Anti-B</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            O <strong>Fator Rh</strong> é outro sistema de grupos sanguíneos, determinado por um gene diferente. Indivíduos Rh+ possuem o antígeno D (genótipo DD ou Dd), enquanto Rh- não possuem (genótipo dd). A incompatibilidade Rh entre mãe (Rh-) e feto (Rh+) pode causar eritroblastose fetal.
+          </p>
+        </section>
+
+        <!-- Herança Ligada ao Sexo -->
+        <section class="content-section">
+          <h3>Herança Ligada ao Sexo</h3>
+          <p>
+            Os <strong>cromossomos sexuais</strong> determinam o sexo biológico dos indivíduos. Em humanos, mulheres possuem dois cromossomos X (XX) e homens possuem um X e um Y (XY). Genes localizados nesses cromossomos apresentam padrões de herança especiais.
+          </p>
+          <p><strong>Herança ligada ao X:</strong></p>
+          <ul>
+            <li>Genes localizados no cromossomo X</li>
+            <li>Homens (XY) são hemizigóticos - possuem apenas uma cópia do gene</li>
+            <li>Características recessivas ligadas ao X são mais comuns em homens</li>
+            <li>Exemplos: hemofilia A, daltonismo, distrofia muscular de Duchenne</li>
+          </ul>
+          <p><strong>Exemplo - Daltonismo:</strong></p>
+          <ul>
+            <li>X<sup>D</sup> = visão normal (dominante)</li>
+            <li>X<sup>d</sup> = daltonismo (recessivo)</li>
+            <li>Mulher normal: X<sup>D</sup>X<sup>D</sup> ou X<sup>D</sup>X<sup>d</sup> (portadora)</li>
+            <li>Mulher daltônica: X<sup>d</sup>X<sup>d</sup> (raro)</li>
+            <li>Homem normal: X<sup>D</sup>Y</li>
+            <li>Homem daltônico: X<sup>d</sup>Y (comum)</li>
+          </ul>
+        </section>
+
+        <!-- Heredogramas -->
+        <section class="content-section">
+          <h3>Heredogramas (Árvores Genealógicas)</h3>
+          <div class="image-gallery">
+            <div class="gallery-item">
+              <img src="images/T02jX117KZeB.jpg" alt="Heredograma" class="educational-image">
+              <p class="image-caption">Exemplo de heredograma mostrando a transmissão de uma característica através das gerações.</p>
+            </div>
+            <div class="gallery-item">
+              <img src="images/AZwmiskLVxgz.jpg" alt="Como fazer Heredograma" class="educational-image">
+              <p class="image-caption">Símbolos e convenções utilizados na construção de heredogramas.</p>
+            </div>
+          </div>
+          <p>
+            <strong>Heredogramas</strong> ou <strong>árvores genealógicas</strong> são diagramas que representam as relações de parentesco em uma família e a transmissão de características genéticas através das gerações.
+          </p>
+          <p><strong>Símbolos principais:</strong></p>
+          <ul>
+            <li>Quadrado (□) = indivíduo do sexo masculino</li>
+            <li>Círculo (○) = indivíduo do sexo feminino</li>
+            <li>Símbolo preenchido (■ ou ●) = indivíduo afetado pela característica</li>
+            <li>Símbolo meio preenchido = portador (heterozigoto)</li>
+            <li>Linha horizontal entre símbolos = casamento/união</li>
+            <li>Linha vertical = descendência</li>
+            <li>Números romanos (I, II, III) = gerações</li>
+          </ul>
+          <p><strong>Análise de heredogramas:</strong></p>
+          <ul>
+            <li><strong>Herança autossômica dominante:</strong> Afeta ambos os sexos igualmente, não pula gerações, pais afetados podem ter filhos afetados.</li>
+            <li><strong>Herança autossômica recessiva:</strong> Afeta ambos os sexos igualmente, pode pular gerações, pais normais podem ter filhos afetados.</li>
+            <li><strong>Herança ligada ao X recessiva:</strong> Afeta principalmente homens, mães normais (portadoras) podem ter filhos afetados.</li>
+            <li><strong>Herança ligada ao X dominante:</strong> Afeta principalmente mulheres, pais afetados têm todas as filhas afetadas.</li>
+          </ul>
+        </section>
+
+        <!-- Mutações -->
+        <section class="content-section">
+          <h3>Mutações Genéticas</h3>
+          <p>
+            <strong>Mutações</strong> são alterações permanentes na sequência de DNA que podem ser transmitidas às células-filhas. São a principal fonte de variabilidade genética e matéria-prima para a evolução.
+          </p>
+          <p><strong>Tipos de mutações:</strong></p>
+          <table>
+            <thead>
+              <tr>
+                <th>Tipo</th>
+                <th>Descrição</th>
+                <th>Exemplos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Mutação Gênica (Pontual)</strong></td>
+                <td>Alteração em um ou poucos nucleotídeos</td>
+                <td>Substituição, inserção, deleção de bases</td>
+              </tr>
+              <tr>
+                <td><strong>Mutação Cromossômica Estrutural</strong></td>
+                <td>Alteração na estrutura do cromossomo</td>
+                <td>Deleção, duplicação, inversão, translocação</td>
+              </tr>
+              <tr>
+                <td><strong>Mutação Cromossômica Numérica</strong></td>
+                <td>Alteração no número de cromossomos</td>
+                <td>Aneuploidias (trissomias, monossomias), euploidias</td>
+              </tr>
+            </tbody>
+          </table>
+          <p><strong>Exemplos de mutações em humanos:</strong></p>
+          <ul>
+            <li><strong>Anemia falciforme:</strong> Mutação pontual no gene da hemoglobina (substituição de um aminoácido)</li>
+            <li><strong>Síndrome de Down:</strong> Trissomia do cromossomo 21 (47 cromossomos)</li>
+            <li><strong>Síndrome de Turner:</strong> Monossomia do X em mulheres (45,X)</li>
+            <li><strong>Síndrome de Klinefelter:</strong> Trissomia dos cromossomos sexuais em homens (47,XXY)</li>
+          </ul>
+        </section>
+
+        <!-- Biotecnologia e Engenharia Genética -->
+        <section class="content-section">
+          <h3>Biotecnologia e Engenharia Genética</h3>
+          <p>
+            A <strong>biotecnologia</strong> é o uso de organismos vivos ou seus componentes para produzir produtos úteis. A <strong>engenharia genética</strong> envolve a manipulação direta do DNA para modificar características de organismos.
+          </p>
+          <p><strong>Técnicas importantes:</strong></p>
+          <ul>
+            <li><strong>DNA recombinante:</strong> Inserção de genes de um organismo em outro (ex: produção de insulina humana em bactérias)</li>
+            <li><strong>PCR (Reação em Cadeia da Polimerase):</strong> Amplificação de segmentos específicos de DNA</li>
+            <li><strong>Sequenciamento de DNA:</strong> Determinação da ordem dos nucleotídeos no DNA</li>
+            <li><strong>CRISPR-Cas9:</strong> Ferramenta de edição genética precisa</li>
+            <li><strong>Clonagem:</strong> Produção de cópias geneticamente idênticas de organismos</li>
+            <li><strong>Transgênicos (OGMs):</strong> Organismos que receberam genes de outras espécies</li>
+            <li><strong>Terapia gênica:</strong> Tratamento de doenças através da inserção de genes funcionais</li>
+          </ul>
+          <p><strong>Aplicações da biotecnologia:</strong></p>
+          <ul>
+            <li>Produção de medicamentos (insulina, hormônio do crescimento, vacinas)</li>
+            <li>Agricultura (plantas resistentes a pragas, secas ou herbicidas)</li>
+            <li>Medicina forense (identificação por DNA)</li>
+            <li>Testes de paternidade</li>
+            <li>Diagnóstico de doenças genéticas</li>
+            <li>Conservação de espécies ameaçadas</li>
+          </ul>
+        </section>
+
+        <!-- Projeto Genoma Humano -->
+        <section class="content-section">
+          <h3>Projeto Genoma Humano</h3>
+          <p>
+            O <strong>Projeto Genoma Humano</strong> (1990-2003) foi um esforço internacional para sequenciar todo o DNA humano. Descobriu-se que o genoma humano contém aproximadamente <strong>3 bilhões de pares de bases</strong> e cerca de <strong>20.000-25.000 genes</strong>, muito menos do que se esperava inicialmente.
+          </p>
+          <p><strong>Descobertas importantes:</strong></p>
+          <ul>
+            <li>Apenas cerca de 2% do DNA humano codifica proteínas</li>
+            <li>Grande parte do DNA é não-codificante, mas pode ter funções regulatórias</li>
+            <li>Humanos compartilham 99,9% do DNA entre si</li>
+            <li>Humanos compartilham cerca de 98% do DNA com chimpanzés</li>
+            <li>Identificação de genes associados a doenças</li>
+          </ul>
+        </section>
+
+        <!-- Questões de Vestibulares -->
+        <section class="questions-section">
+          <h2>📚 Questões de Vestibulares</h2>
+          
+          <div class="question">
+            <h4>QUESTÃO 01 (ENEM)</h4>
+            <p>Em um cruzamento entre duas plantas de ervilha heterozigóticas para a cor da semente (Aa), qual a probabilidade de obter uma planta com sementes verdes (aa)?</p>
+            <ul class="options">
+              <li><strong>a)</strong> 0%</li>
+              <li><strong>b)</strong> 25%</li>
+              <li><strong>c)</strong> 50%</li>
+              <li><strong>d)</strong> 75%</li>
+              <li><strong>e)</strong> 100%</li>
+            </ul>
+            <details class="answer">
+              <summary>Ver Resposta</summary>
+              <p><strong>Resposta: B</strong></p>
+              <p>No cruzamento Aa × Aa, a proporção genotípica é 1 AA : 2 Aa : 1 aa. Portanto, a probabilidade de obter aa (sementes verdes) é 1/4 ou 25%.</p>
+            </details>
+          </div>
+
+          <div class="question">
+            <h4>QUESTÃO 02</h4>
+            <p>Um homem com tipo sanguíneo A (I<sup>A</sup>i) casa-se com uma mulher com tipo B (I<sup>B</sup>i). Qual a probabilidade de terem um filho com tipo O?</p>
+            <ul class="options">
+              <li><strong>a)</strong> 0%</li>
+              <li><strong>b)</strong> 25%</li>
+              <li><strong>c)</strong> 50%</li>
+              <li><strong>d)</strong> 75%</li>
+            </ul>
+            <details class="answer">
+              <summary>Ver Resposta</summary>
+              <p><strong>Resposta: B</strong></p>
+              <p>O cruzamento I<sup>A</sup>i × I<sup>B</sup>i pode gerar: I<sup>A</sup>I<sup>B</sup> (AB), I<sup>A</sup>i (A), I<sup>B</sup>i (B) e ii (O). A probabilidade de tipo O é 1/4 ou 25%.</p>
+            </details>
+          </div>
+
+          <div class="question">
+            <h4>QUESTÃO 03</h4>
+            <p>Uma mulher com visão normal, filha de pai daltônico, casa-se com um homem com visão normal. Qual a probabilidade de terem um filho homem daltônico?</p>
+            <ul class="options">
+              <li><strong>a)</strong> 0%</li>
+              <li><strong>b)</strong> 25%</li>
+              <li><strong>c)</strong> 50%</li>
+              <li><strong>d)</strong> 75%</li>
+            </ul>
+            <details class="answer">
+              <summary>Ver Resposta</summary>
+              <p><strong>Resposta: B</strong></p>
+              <p>A mulher é portadora (X<sup>D</sup>X<sup>d</sup>) e o homem é normal (X<sup>D</sup>Y). A probabilidade de ter um filho homem é 50%, e deste ser daltônico (X<sup>d</sup>Y) é 50%. Portanto: 1/2 × 1/2 = 1/4 ou 25%.</p>
+            </details>
+          </div>
+
+          <div class="question">
+            <h4>QUESTÃO 04</h4>
+            <p>Qual das seguintes características NÃO segue o padrão de herança mendeliana simples?</p>
+            <ul class="options">
+              <li><strong>a)</strong> Cor da semente em ervilhas</li>
+              <li><strong>b)</strong> Altura humana</li>
+              <li><strong>c)</strong> Textura da semente em ervilhas</li>
+              <li><strong>d)</strong> Presença de pelos em ervilhas</li>
+            </ul>
+            <details class="answer">
+              <summary>Ver Resposta</summary>
+              <p><strong>Resposta: B</strong></p>
+              <p>A altura humana é uma característica poligênica (determinada por vários genes) e também influenciada pelo ambiente, não seguindo o padrão mendeliano simples de dominância completa.</p>
+            </details>
+          </div>
+
+          <div class="question">
+            <h4>QUESTÃO 05 (FUVEST)</h4>
+            <p>A Primeira Lei de Mendel (Lei da Segregação) refere-se ao fato de que:</p>
+            <ul class="options">
+              <li><strong>a)</strong> Os gametas são produzidos por mitose</li>
+              <li><strong>b)</strong> Os alelos de um gene se separam durante a formação dos gametas</li>
+              <li><strong>c)</strong> Genes diferentes segregam independentemente</li>
+              <li><strong>d)</strong> Características dominantes sempre aparecem</li>
+            </ul>
+            <details class="answer">
+              <summary>Ver Resposta</summary>
+              <p><strong>Resposta: B</strong></p>
+              <p>A Primeira Lei de Mendel estabelece que os dois alelos de um gene se separam (segregam) durante a formação dos gametas, de modo que cada gameta recebe apenas um alelo.</p>
+            </details>
+          </div>
+
+          <div class="question">
+            <h4>QUESTÃO 06</h4>
+            <p>Em um heredograma, observa-se que uma doença afeta principalmente homens e que mulheres normais podem ter filhos afetados. Qual o padrão de herança mais provável?</p>
+            <ul class="options">
+              <li><strong>a)</strong> Autossômica dominante</li>
+              <li><strong>b)</strong> Autossômica recessiva</li>
+              <li><strong>c)</strong> Ligada ao X recessiva</li>
+              <li><strong>d)</strong> Ligada ao X dominante</li>
+            </ul>
+            <details class="answer">
+              <summary>Ver Resposta</summary>
+              <p><strong>Resposta: C</strong></p>
+              <p>Herança ligada ao X recessiva afeta principalmente homens (que são hemizigóticos). Mulheres portadoras (X<sup>D</sup>X<sup>d</sup>) são normais mas podem transmitir o alelo recessivo para seus filhos homens.</p>
+            </details>
+          </div>
+
+          <div class="question">
+            <h4>QUESTÃO 07 (UNESP)</h4>
+            <p>O cruzamento entre um indivíduo de genótipo AaBb e um indivíduo aabb, em que os genes A e B segregam independentemente, produzirá descendentes com o genótipo aabb na proporção de:</p>
+            <ul class="options">
+              <li><strong>a)</strong> 1/2</li>
+              <li><strong>b)</strong> 1/4</li>
+              <li><strong>c)</strong> 1/8</li>
+              <li><strong>d)</strong> 1/16</li>
+            </ul>
+            <details class="answer">
+              <summary>Ver Resposta</summary>
+              <p><strong>Resposta: B</strong></p>
+              <p>O cruzamento é Aa x aa (produz 1/2 aa) e Bb x bb (produz 1/2 bb). A probabilidade de aabb é 1/2 * 1/2 = 1/4. (Segunda Lei de Mendel)</p>
+            </details>
+          </div>
+
+          <div class="question">
+            <h4>QUESTÃO 08 (UERJ)</h4>
+            <p>O daltonismo é uma condição ligada ao cromossomo X recessiva. Um homem daltônico casa-se com uma mulher de visão normal, cujo pai era daltônico. Qual a probabilidade de o casal ter uma filha daltônica?</p>
+            <ul class="options">
+              <li><strong>a)</strong> 0%</li>
+              <li><strong>b)</strong> 25%</li>
+              <li><strong>c)</strong> 50%</li>
+              <li><strong>d)</strong> 75%</li>
+            </ul>
+            <details class="answer">
+              <summary>Ver Resposta</summary>
+              <p><strong>Resposta: B</strong></p>
+              <p>Homem daltônico: X<sup>d</sup>Y. Mulher de visão normal com pai daltônico (X<sup>d</sup>Y) é portadora: X<sup>D</sup>X<sup>d</sup>. O cruzamento é X<sup>d</sup>Y x X<sup>D</sup>X<sup>d</sup>. A probabilidade de filha daltônica (X<sup>d</sup>X<sup>d</sup>) é 1/4 ou 25%.</p>
+            </details>
+          </div>
+
+          <div class="question">
+            <h4>QUESTÃO 09 (UFMG)</h4>
+            <p>O que é um alelo letal?</p>
+            <ul class="options">
+              <li><strong>a)</strong> Um alelo que causa a morte do indivíduo apenas na fase adulta.</li>
+              <li><strong>b)</strong> Um alelo que não se manifesta no fenótipo.</li>
+              <li><strong>c)</strong> Um alelo que, em dose dupla (homozigose), causa a morte do indivíduo antes do nascimento ou da idade reprodutiva.</li>
+              <li><strong>d)</strong> Um alelo que se manifesta apenas em condições ambientais extremas.</li>
+            </ul>
+            <details class="answer">
+              <summary>Ver Resposta</summary>
+              <p><strong>Resposta: C</strong></p>
+              <p>Alelos letais são aqueles que, quando presentes em homozigose (geralmente recessiva), impedem o desenvolvimento normal do indivíduo, levando-o à morte.</p>
+            </details>
+          </div>
+
+          <div class="question">
+            <h4>QUESTÃO 10 (ENEM)</h4>
+            <p>O que é o Projeto Genoma Humano e qual seu principal objetivo?</p>
+            <ul class="options">
+              <li><strong>a)</strong> Criar clones humanos para fins terapêuticos.</li>
+              <li><strong>b)</strong> Mapear e sequenciar todos os genes do DNA humano.</li>
+              <li><strong>c)</strong> Desenvolver novas vacinas contra doenças genéticas.</li>
+              <li><strong>d)</strong> Modificar geneticamente embriões humanos para eliminar doenças.</li>
+            </ul>
+            <details class="answer">
+              <summary>Ver Resposta</summary>
+              <p><strong>Resposta: B</strong></p>
+              <p>O Projeto Genoma Humano (PGH) foi um esforço internacional para determinar a sequência de pares de bases químicas que compõem o DNA humano e identificar e mapear todos os genes do genoma humano.</p>
+            </details>
+          </div>
+        </section>
+
+        <!-- QR Codes -->
+        <section class="qr-codes-section">
+          <h2> Recursos Adicionais</h2>
+          <div class="qr-codes-container">
+            <div class="qr-code-box">
+              <h4> Vídeo Aulas</h4>
+              <img src="images/qr_playlist_citologia.png" alt="QR Code para Vídeo Aulas de Genética" class="qr-code">
+              <p>Escaneie para acessar vídeo aulas sobre Genética</p>
+            </div>
+            <div class="qr-code-box">
+              <h4> Jogos e Conteúdo Interativo</h4>
+              <img src="images/qr_citologia.png" alt="QR Code para Jogos de Genética" class="qr-code">
+              <p>Escaneie para acessar jogos e simuladores de cruzamentos genéticos</p>
+            </div>
+          </div>
+        </section>
+      </article>
+    </div>
+  </main>
+
+
+  <footer>
+    <p>&copy; 2024 Sistema de Materiais Didáticos de Biologia. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
